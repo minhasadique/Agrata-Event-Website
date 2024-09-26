@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Agrata</title>
+    <link rel="icon" href="images/logo__1.png">
+	<link rel="js" href="script.js">
+	
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Activity Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<!-- scroll top script when refresh a page
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+    
+	<!-- css files -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+	
+	<!--web font--><link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<!--//web font-->
+
+</head>
+
+<body>
+
+
+<!-- //header -->
+<header>	
+	<div class="container" id="home">
+		<!-- nav -->
+		<nav class="py-4">
+        <div id="logo">
+			<h2> <a href="#index.html"><span class="fa fa-" aria-hidden="true"></span>AgrataFest'24</a></h2>
+		</div>
+
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu mt-2">
+                <li class="mr-lg-4 mr-3 active"><a href="#">Home</a></li>
+                <li class="mr-lg-4 mr-3"><a href="#about">About</a></li>
+                <li class="mr-lg-4 mr-3"><a href="#events">Events</a></li>
+               
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+		<!-- //nav -->
+	</div>
+</header>
+<!-- //header -->
+		
+<!-- banner -->
+<section class="banner">
+	<div class="banner-layer">
+		<div class="container">
+			<div class="row banner_info">
+				<!-- <div class="col-md-8 banner_margin">
+					
+					<h3 class="editContent"> </h3>
+					<h2 class="editContent"></h2>
+					<h4></h4>
+					<a href="#popup1"> Register Now </a>
+					<a href="#contact"> Contact Us</a>
+				</div> -->
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //banner -->	
+
+<!-- text -->
+<div class="text py-lg-5 py-5 text-center" id="text">
+	<div class="container py-sm-3">
+		<!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+
+
+
+<div id="demo1">
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 8, 2024 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</div>
+		<div class="d-flex justify-content-center mt-3">
+			
+			<a href="#events" class="text-capitalize hire btn">Register Now </a>
+		</div>
+	</div>
+</div>
+<!-- //text -->
+
+<!-- about -->
+<section class="about py-5" id="about">
+	<div class="container py-3">
+		<h3 class="heading">ABOUT US</h3>
+		
+		<div class="row about-grids">
+			<div class="col-lg-4">
+				<h4 class="">Agrata stands as a beacon of excellence, dedicated to shaping the future leaders of the management and business world.</h4>
+				<p class="my-4">Agrata is more than just an event, It's a platform designed to empower the students by enhancing their management acumen and fostering a diverse skill set beyond traditional paradigms. With a strong focus on personal and professional growth. Agrata promises to deliver a day brimming with enlightening experiences and boundless opportunities.</p>
+				<!-- <a href="#"> Download Brochure <span class="fa ml-2 fa-download"></span> </a>	 -->
+			</div>
+			<div class="col-lg-4 col-md-6 my-lg-0 my-5">
+				<img src="images/about.jpeg" alt="" class="img-fluid" />
+			</div>
+			<div class="col-lg-4 bar-grids">
+				<div class="wthree_skills">
+					<h4 class="">Event Highlights:</h4>
+					<h6 class="mb-2">Stalls and Activities:</h6>
+					<p>Agrata 2024 will feature many stalls offering a diverse range of experiences including food, games, art & craft, merchandise and information & awareness stalls</p>
+					<div class="my-4">
+						<h6 class="mb-2">Networking and engagement :</h6>
+						<p>This event offers a unique opportunity to connect with the future leaders of the industry, fostering collaboration and idea exchange among a diverse group of participants. </p>
+					</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- about -->
+<section class="events" id="events">
+<div class="gallery py-5" id="projects">
+	<div class="container text-center py-2">
+		<h3 class="heading">EVENTS</h3>
+		<div class="row gallery_grid-more project-grids w3ls">
+			
+			  <div class="card11 col-lg-3 col-md-4 col-12" >
+				<img class="card-img-top" src="images/bestmanager.png" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Best Manager</h5>
+				  <p class="card-text">- Reg Fee: ₹200 (per head) <br> 
+					- 🥇 First Prize: ₹5000 <br>
+					- 🥈 Second Prize: ₹2500
+				  </p>
+				  <a href="https://forms.gle/KqZMMmdKLAnc4K6c7" class="btn btn-warning mt-2">Click to Register</a>
+				</div>
+			  </div>
+			  <div class="card11 col-lg-3 col-md-4 col-12" >
+				<img class="card-img-top" src="images/marketing.png" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Marketing Game </h5>
+				  <p class="card-text">- Reg Fee: ₹500 (per team of 4) <br> 
+					- 🥇 First Prize: ₹3000 <br>
+					- 🥈 Second Prize: ₹1500
+				  </p>
+				  <a href="https://forms.gle/KqZMMmdKLAnc4K6c7" class="btn btn-warning mt-2">Click to Register</a>
+				</div>
+			  </div>
+			  <div class="card11 col-lg-3 col-md-4 col-12" >
+				<img class="card-img-top" src="images/corporatesimulation.png" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Best HR Team</h5>
+				  <p class="card-text">- Reg Fee: ₹600 (per team of 4) <br> 
+					- 🥇 First Prize: ₹4500 <br>
+					- 🥈 Second Prize: ₹2300
+				  </p>
+				  <a href="https://forms.gle/KqZMMmdKLAnc4K6c7" class="btn btn-warning mt-2">Click to Register</a>
+				</div>
+			  </div>
+			  <div class="card11 col-lg-3 col-md-4 col-12" >
+				<img class="card-img-top" src="images/mysterybox.png" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Mystery Logo Making</h5>
+				  <p class="card-text">- Reg Fee: ₹100 (per head) <br> 
+					- 🥇 First Prize: ₹1000 <br>
+					
+				  </p>
+				  <a href="https://forms.gle/KqZMMmdKLAnc4K6c7" class="btn btn-warning mt-2">Click to Register</a>
+				</div>
+			  </div>
+			  <div class="card11 col-lg-3 col-md-4 col-12" >
+				<img class="card-img-top" src="images/trasurehunt.png" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Treasure Hunt</h5>
+				  <p class="card-text">- Reg Fee: ₹300 (per team of 4) <br> 
+					- 🥇 First Prize: ₹3500 <br>
+					
+				  </p>
+				  <a href="https://forms.gle/KqZMMmdKLAnc4K6c7" class="btn btn-warning mt-2">Click to Register</a>
+				</div>
+			  </div>
+			  <div class="card11 col-lg-3 col-md-4 col-12" >
+				<img class="card-img-top" src="images/minutetowinit.png" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Minute To Win It </h5>
+				  <p class="card-text">- Reg Fee: ₹100 (per head) <br> 
+					- 🥇 First Prize: ₹2000 <br>
+					- 🥈 Second Prize: ₹1000
+				  </p>
+				  <a href="https://forms.gle/KqZMMmdKLAnc4K6c7" class="btn btn-warning mt-2">Click to Register</a>
+				</div>
+			  </div>
+			  <div class="card11 col-lg-3 col-md-4 col-12" >
+				<img class="card-img-top" src="images/reelmaking.png" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Reel Making Competition </h5>
+				  <p class="card-text">- Reg Fee: ₹50 (per head) <br> 
+					- 🥇 First Prize: ₹1500 <br>
+					
+				  </p>
+				  <a href="https://forms.gle/KqZMMmdKLAnc4K6c7" class="btn btn-warning mt-2">Click to Register</a>
+				</div>
+			  </div>
+			  <div class="card11 col-lg-3 col-md-4 col-12" >
+				<img class="card-img-top" src="images/spotdance.png" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Spot Dance </h5>
+				  <p class="card-text">- Reg Fee: ₹100 (per head) <br> 
+					- 🥇 First Prize: ₹1500 <br>
+					
+				  </p>
+				  <a href="https://forms.gle/KqZMMmdKLAnc4K6c7" class="btn btn-warning mt-2">Click to Register</a>
+				</div>
+			  </div>
+			  
+
+			
+			
+			
+		</div>
+	</div>
+</div>
+</section>
+<!-- //gallery --> 
+
+<!-- services -->
+
+<!-- //services -->
+
+<!-- experience -->
+
+<!-- //experience -->
+
+<!-- blog -->
+
+<!-- //blog -->
+
+<!-- gallery -->
+<div class="gallery1 py-5" id="projects">
+    <div class="container py-3">
+        <h3 class="heading text-center">SPONSORS</h3>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 col-6 gallery_grid1">
+                <a href="#popup2">
+                    <img src="images/MyG.jpg" alt=" " class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 gallery_grid1">
+                <a href="#popup3">
+                    <img src="images/imagesp.jfif" alt=" " class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 gallery_grid1 mt-4 mt-md-0">
+                <a href="#popup4">
+                    <img src="images/meralda.jfif" alt=" " class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 gallery_grid1 mt-4 mt-lg-0">
+                <a href="#popup5">
+                    <img src="images/xylem.png" alt=" " class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 gallery_grid1 mt-4">
+                <a href="#popup6">
+                    <img src="images/kannankandy.jfif" alt=" " class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 gallery_grid1 mt-4">
+                <a href="#popup7">
+                    <img src="images/blackspo.jpeg" alt=" " class="img-fluid" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //gallery --> 
+
+
+<!-- contact -->
+<section class="contact" id="contact">
+	<div class="container py">
+		<h3 class="heading mb-sm-5 mb-4">CONTACT US</h3>
+		<div class="contact-form">
+			<div class="row justify-content-center">
+				<div class="card22 col-lg-10 p-0">  <!-- Ensure clean layout -->
+					<div class="row g-0 d-flex flex-md-row flex-column">  <!-- Flex control for row/column layout -->
+						
+						<!-- Card body section (Coordinators) on the left -->
+						<div class="col-md-6 col-12 order-md-1 order-1">  <!-- Keep order for smaller screens -->
+							<div class="card-body p-3">
+								<h2 class="card-title text-white">COORDINATORS:</h2>
+								<br>
+								<a href="#"><span class="fa mr-2 fa-phone"></span></a> HANEENA RUCKIYA - 7012757073
+								<br><br>
+								<a href="#"><span class="fa mr-2 fa-phone"></span></a> LAMIA - 9656443062
+								<br><br>
+								<a href="#"><span class="fa mr-2 fa-phone"></span></a> NAJA - 7736697975
+								<br><br>
+								<a href="agratafest@gmail.com"><span class="fa mr-2 fa-envelope"></span></a> agratafest@gmail.com
+							</div>
+						</div>
+
+						<!-- Map section on the right -->
+						<div class="mapdiv col-md-6 col-12 order-md-2 order-2"> <!-- Use order to control layout on smaller screens -->
+							<iframe class="mapclass" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.5064915962535!2d75.80330257504959!3d11.297642688884599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65e9e05630773%3A0x4754edde546a2b!2sProvidence%20Women&#39;s%20College%20(Autonomous)!5e0!3m2!1sen!2sin!4v1726872782828!5m2!1sen!2sin"></iframe>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- contact -->
+
+<!-- footer -->
+<footer class="py-3">
+	<div class="container">
+		<div class="info-grids">
+			<div class="text-center">
+				<div class="social mb-4">
+					<ul>
+						<!-- <li><a href="#"><span class="fa mr-2 fa-facebook"></span></a></li> -->
+						<!-- <li><a href="#"><span class="fa mr-2 fa-twitter"></span></a></li> -->
+						<li><a href="https://www.instagram.com/agrata_2024?igsh=OWRnd215M2hzY2x6"><span class="fa mr-2 fa-instagram"></span></a></li>
+						<!-- <li><a href="#"><span class="fa mr-2 fa-pinterest"></span></a></li> -->
+						<!-- <li><a href="#"><span class="fa mr-2 fa-vk"></span></a></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright text-center">
+			<p>© All Rights Reserved | Designed and Build by <a href="https://www.linkedin.com/in/minha-sadique-187b61293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Minha Sadique</a> </p>
+			<a href="#home" class="move-top scroll"><span class="fa fa-angle-up" aria-hidden="true"></span></a>
+		</div>
+	</div>
+</footer>
+<!-- //footer -->
+
+
+<!-- //popup for gallery -->
+<script src="script.js"></script>
+</body>
+</html>
